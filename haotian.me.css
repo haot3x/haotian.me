@@ -1,0 +1,43 @@
+.sns-icon{
+    margin: 0; !important
+    padding: 0; !important
+    border: 0; !important
+    font-size: 100%; !important
+    font: inherit; !important
+    vertical-align: baseline; !important
+}
+
+#xuhaotian{
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: rotate-h1 2s infinite alternate ease-in-out;
+
+    -webkit-transform: perspective(1000px) rotateY(0deg);
+
+    -webkit-transition: all 2s ease-in-out;
+}
+
+.sns-icona:hover,
+.sns-icon:focus {
+    background:none;
+    text-shadow:none;
+}
+
+.sns-icon{
+	width:200px;
+    height:200px;
+}
+
+
+#androidfy{
+    width:200px;
+    height:200px;
+}
+
+
+#python{
+    margin: 0px 0px -20px 0px;
+    width:210px;
+    height:70px;
+}
+
+
