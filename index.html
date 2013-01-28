@@ -36,7 +36,8 @@
                     slicesCount         : 5,
                     disperseFactor      : 30,
                     sequentialRotation  : true,
-                    sequentialFactor    : 100
+                    sequentialFactor    : 100,
+                    autoplay: true
                 });
                 
                 if( !Modernizr.csstransforms3d ) {
@@ -64,36 +65,26 @@
 
 <div id="impress">
 
-
-    <!--
-        
-        This element introduces rotation.
-        
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-        
-    -->
-    <div id="xuhaotian" class="step" data-x="850" data-y="6000" data-rotate="" data-scale="5" >
-        ver 0.1
-        <p>Hi there <br/>My name is 
-            <strong>Ted XU Haotian 徐皓天</strong><br/>    
+    <div id="xuhaotian" class="step" data-x="1200" data-y="7000" data-rotate="" data-scale="5" >
+        <p>Hi there, welcome <br/>My name is 
+            <strong>Ted, Xu Haotian 徐皓天</strong><br/>    
         </p>
-
 
         <img id="androidfy" src="./images/androidfy.png"/>
     </div>
 
-    <div  class="step" data-x="-4000" data-y="2500" data-z="10" data-rotate="90" data-scale="10">
-        <p>I am from Chengdu and currently living in Hong Kong,
-            recently graduated from the Chinese University of Hong Kong</p>
+    <div id="where" class="step" data-x="-4000" data-y="2500" data-z="10" data-rotate="90" data-scale="10">
+        <p>From <a href="http://goo.gl/maps/uE20k"  target="_blank">Chengdu</a> 
+            and live in <a href="http://goo.gl/maps/9WdTl"  target="_blank">Hong Kong</a></p>
     </div>
 
-    <div class="step" data-x="-4000" data-y="2500" data-z="-3000" data-rotate="270" data-scale="1">
-        <p>I like coding, <img id="python" src="./images/python.png"/>  is my favorite</p>
+    <div id="coding" class="step" data-x="-4000" data-y="2500" data-z="-3000" data-rotate="270" data-scale="1">
+        <p>I like coding, <img id="python" src="./images/python.png"/> is my favorite</p>
+        <img id="import_this" src="./images/import_this.png"/>
     </div>
 
 
-    <div id="sb-slider" class="step sb-slider" data-x="1000" data-y="1000" data-rotate="270" data-scale="6">
+    <div id="sb-slider" class="step sb-slider" data-x="1000" data-y="0" data-rotate="270" data-scale="6">
         <img src="slicebox/images/1.jpg" title="Creative Lifesaver"/>
         <img src="slicebox/images/2.jpg" title="Honest Entertainer"/>
         <img src="slicebox/images/3.jpg" title="Brave Astronaut"/>
@@ -103,35 +94,31 @@
         <img src="slicebox/images/7.jpg" title="Selfless Philantropist"/>
     </div>
 
-    <div class="step" data-x="6000" data-y="-300" data-rotate="360" data-scale="6" >
+    <div id="more" class="step" data-x="8000" data-y="-1500" data-rotate="360" data-scale="6" >
         <p>
         more about me ? <br/>
-        
-        {
-            "sports":["Manchester United","Cristiano Ronaldo"]
-            "singer":["Jordan Chan Siu-Chun 陳小春","Jacky Hok Yau Cheung 張學友","Goo Goo Dolls"],
-            "food":"Mcdonalds"
-        } 
+
+        <img id="more_about_me" src="./images/more_about_me.png"/>
         
         </p>
     </div>
 
 
-    <div id="its-in-3d" class="step" data-x="6500" data-y="2300" data-z="-100" data-rotate="360" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+    <div id="connected" class="step" data-x="7600" data-y="1000" data-z="-100" data-rotate="360" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
         <p><span class="have">want</span> <span class="you">to</span> <span class="noticed">get</span> <span class="its">connected</span> <span class="in">?</span></b>?</p>     
     </div>
 
-    <div id="one-more-thing" class="step" data-x="7000" data-y="2900"  data-rotate="360" data-rotate-x="40" data-rotate-y="10" data-scale="2">
+    <div id="sns" class="step" data-x="8000" data-y="1900"  data-rotate="360" data-rotate-x="40" data-rotate-y="10" data-scale="2">
         <span >
-            <a class="sns-icon" href="http:www.facebook.com/xu.haotian"  target="_blank">
+            <a class="a-transparent" href="http:www.facebook.com/xu.haotian"  target="_blank">
                 <img  class="sns-icon" src="./images/sns_icons1/facebook.png"/>
             </a>
 
-            <a  href="http:twitter.com/tedshow"  target="_blank">
+            <a class="a-transparent" href="http:twitter.com/tedshow"  target="_blank">
                 <img class="sns-icon" src="./images/sns_icons1/twitter.png"/>
             </a>
             
-            <a href="http://hk.linkedin.com/in/xuhaotian"  target="_blank">
+            <a class="a-transparent" href="http://hk.linkedin.com/in/xuhaotian"  target="_blank">
                 <img class="sns-icon" src="./images/sns_icons1/linkedin.png"/>
             </a>
                 

@@ -1,10 +1,15 @@
+.a-transparent{
+    background:transparent !important;
+}
+
 .sns-icon{
-    margin: 0; !important
-    padding: 0; !important
-    border: 0; !important
-    font-size: 100%; !important
-    font: inherit; !important
-    vertical-align: baseline; !important
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 100% !important;
+    font: inherit !important;
+    vertical-align: baseline !important;
+    
 }
 
 #xuhaotian{
@@ -33,11 +38,18 @@
     height:200px;
 }
 
-
 #python{
-    margin: 0px 0px -20px 0px;
-    width:210px;
-    height:70px;
+    margin: 0px 0px -30px 0px;
+    width:240px;
+    height:80px;
 }
 
+#import_this{
+     padding: 50px 0px 0px 130px; 
+}
+
+
+#more_about_me{
+    width:1000px;    
+}
 
