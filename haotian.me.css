@@ -12,6 +12,11 @@
     
 }
 
+.sb-slider-img
+{
+    width:700px;
+    height:420px;    
+}
 #xuhaotian{
     -webkit-transform-style: preserve-3d;
     -webkit-animation: rotate-h1 2s infinite alternate ease-in-out;
