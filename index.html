@@ -8,7 +8,6 @@
     <title>haotian.me</title>
     
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
@@ -18,7 +17,8 @@
     <link href="css/impress-demo.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!--<link rel="apple-touch-icon" href="apple-touch-icon.png" />-->
+    <link rel="apple-touch-icon" href="favicon.png" />
 
 
 
@@ -52,6 +52,22 @@
             });
         </script>
 
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-38148897-1']);
+          _gaq.push(['_setDomainName', 'haotian.me']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+
 </head>
 <body class="impress-not-supported">
 
@@ -66,8 +82,10 @@
 <div id="impress">
 
     <div id="xuhaotian" class="step" data-x="1200" data-y="7000" data-rotate="" data-scale="5" >
-        <p>Hi there, welcome <br/>My name is 
-            <strong>Ted, Xu Haotian 徐皓天</strong><img id="eight-bit" src="./images/8bit.png"/><br/>    
+        
+
+        <p><img id="eight-bit" src="./images/8bit.png"/> Hi there, welcome!<br/>My name is 
+            <strong>Ted, Xu Haotian 徐皓天</strong><br/>    
         </p>
         <!--
         <img id="androidfy" src="./images/androidfy.png"/>
